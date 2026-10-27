@@ -13,7 +13,7 @@ This is a self-contained Day 2 training bundle about project-specific agent inst
 ## Project facts and working rules
 
 - The learner starter is a small Python project with no package installation required. Its current public function is `calculate_total(items)`, which returns a `float`; item shape and behavior are documented in the starter README, source, and tests.
-- Run the documented starter check from its directory: `python3 -m unittest discover -s tests -v`. Report the actual result when you run it.
+- After every code change, or when reviewing user-authored code changes, follow [`.agents/skills/verify-code-changes/SKILL.md`](.agents/skills/verify-code-changes/SKILL.md) and run the full documented starter check from its directory: `python3 -m unittest discover -s tests -v`. Report the actual result.
 - Keep code changes within the task card's scope. Preserve existing calls and contracts unless the task explicitly changes them; do not add dependencies or alter the item schema unless requested.
 - For the lab's no-guidance baseline, use a clean starter copy outside this bundle and under a parent with no `AGENTS.md` in its ancestor chain. This root file applies when the starter remains inside this bundle. Put learner-authored `AGENTS.md` only in the guided copy.
 - Keep integration exercises local and verifiable with mocks or fakes. Follow the integration template's limits on production access, credentials, and customer/payment data.
